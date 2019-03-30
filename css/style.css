@@ -35,7 +35,7 @@ body {
 .cursor {
   cursor: pointer;
 }
-/* ----------------HEADER---------------- */
+/* ----------------header---------------- */
 header {
   max-width: 1200px; 
   height: 158px;  
@@ -236,11 +236,11 @@ header {
 .sixth-button .menu-button-font {
   margin-right: -7px;
 }
-
+/* -------------breadcrumbs------------- */
 .breadcrumbs {
   height: 48px;
 }
-
+/* ---------------tagline--------------- */
 .tagline {
   display: flex;
   flex-direction: column;
@@ -284,10 +284,19 @@ header {
   line-height: 16px;
 }
 
+.tagline__text span {
+  line-height: 21px;
+  word-spacing: 3.4px;
+  margin-left: -8px;
+}
+/* -----------image-area----------- */
 .image-area {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 1170px;
+  margin-top: 48px;
+  margin-left: 15px;
 }
 
 .image-area__block {
@@ -303,19 +312,41 @@ header {
   width: 555px;
 }
 
+.first-ceil{
+  margin-right: 30px;
+}
+
+.second-ceil {
+  margin-left: 30px;
+}
+
 .picture{
-  width: 100%;
+   width: 555px;
   height: 235px;
 }
 
 .ceil__teatle {
   font-family: "Romul-Regular";
   font-size: 25px;
+  margin-top: 21px;
+  margin-left: 2px;
+  letter-spacing: 1.5px;
+}
+
+.first-block .second-ceil .ceil__teatle,
+.second-block .second-ceil .ceil__teatle {
+  letter-spacing: -0.8px;
+}
+
+.peach-line-long {
+  margin-top: 21px;
 }
 
 .ceil__text {
   font-family: "Montserrat-Medium";
-  font-size: 12.5px;
+  font-size: 12px;
+  margin-top: 22px;
+  letter-spacing: 0.33px;
 }
 
 .ceil__button {
@@ -323,4 +354,22 @@ header {
   border: 2px solid black;
   width: 275px;
   height: 43px;
+  margin-top: 27px;
+  margin-left: -1px;
+}
+
+.third-block .ceil__button {
+  margin-top: 28px;
+}
+
+.ceil__button-font {
+  font-family: "Montserrat-Medium";
+  font-size: 15px;
+  margin-left: 1px;
+  letter-spacing: 0.5px;
+}
+/* -----------image-area----------- */
+footer {
+  width: 1920px;
+  height: 340px;
 }
