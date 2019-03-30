@@ -26,6 +26,10 @@
   font-weight: normal;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {  
   display: flex;
   flex-direction: column;
@@ -140,15 +144,12 @@ header {
 .header__buttons:hover {
   background-color: #d0aa8c;
   border:1px solid #d0aa8c;
+  color: #ffffff;
 }
 
 .header__buttons-font{
   font-family: "Montserrat-Medium";
   font-size: 16px;
-}
-
-.header__buttons-font:hover {
-  color: #ffffff;
 }
 
 .header__menu {
@@ -157,7 +158,6 @@ header {
   height: 60px;  
   margin-top: 25px;
   transform: translateX(-18.75%);
-  overflow: hidden;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -358,6 +358,12 @@ header {
   margin-left: -1px;
 }
 
+.ceil__button:hover {
+  background-color: #d0aa8c;
+  border: 2px solid #d0aa8c;
+  color: #ffffff;
+}
+
 .third-block .ceil__button {
   margin-top: 28px;
 }
@@ -368,8 +374,178 @@ header {
   margin-left: 1px;
   letter-spacing: 0.5px;
 }
-/* -----------image-area----------- */
+/* ---------------footer--------------- */
 footer {
-  width: 1920px;
+  width: 100%;
+  margin-top: 9px;
   height: 340px;
+  background-image: url('../img/footer.png'); 
+  transform: translateX(-0.25%);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.footer__wrapper {
+  width: 1170px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 36px;
+  margin-left: 30px;
+}
+.footer__info {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__blocks {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__title {
+  font-family: "Romul-Regular";
+  font-size: 18.5px;
+  color: #ffffff;
+}
+
+.footer__type {
+  font-family: "Montserrat-Regular";
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  color: #9f9f9f;
+  margin-top: 5px;
+}
+
+.footer__type:hover {
+  color: #ffffff;
+}
+
+.vertical-line-footer {
+  width: 2px;
+  height: 136px;
+  margin-top: 71px;
+  margin-left: -2px;
+}
+
+.vertical-line-footer.second-l {
+  margin-left: 4px;
+}
+
+.vertical-long-line-footer {
+  width: 2px;
+  height: 207px;
+  margin-left: 1px;
+  margin-top: 1px;
+}
+
+.info__cars {
+  width: 245px;  
+}
+
+.info__services {
+  width: 257px;
+}
+
+.info__about-us {
+  width: 237px;
+}
+
+.peach-line-footer {
+  margin-top: 15px;
+  margin-bottom: 24px;
+  margin-left: 2px;
+  width: 68px;
+}
+
+.info__services,
+.info__about-us {
+  margin-left: 81px;
+}
+
+.info__contacts {
+  margin-left: 72px;
+  margin-top: -8px;
+}
+
+.footer-button {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #9f9f9f;
+  width: 185px;
+  height: 36px;
+}
+
+.footer-button.second-btn{
+  margin-top: 5px;
+}
+
+.footer-button-font {
+  font-family: "Montserrat-Medium";
+  font-size: 16.5px;
+  color: #9f9f9f;
+}
+
+.footer-button-font.second-btn {
+  letter-spacing: 1px;
+}
+
+.footer-button:hover {
+  border-bottom: 1px solid #ffffff;  
+}
+
+.footer-button-font:hover {
+  color: #ffffff;
+}
+
+.phones-block {
+  background-color: rgba(255, 255, 255, 0.15);  
+  width: 185px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 16px;
+}
+
+.phones-block__phones {
+  font-family: "Montserrat-Medium";
+  font-size: 16.5px;
+  color: #ffffff;
+  margin-top: 9px;
+  margin-right: 21px;
+  letter-spacing: -0.4px;
+}
+
+.sec-phone {
+  margin-top: 4px;
+  letter-spacing: 0.1px;
+}
+
+.phones-block__text {
+  font-family: "Montserrat-Medium";
+  font-size: 8.5px;
+  color: #9f9f9f;
+  margin-right: 21px;
+}
+
+.icons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 7px;
+  margin-right: 11px;
+}
+
+.icon {
+width: 28px;
+height: 28px;
+margin-right: 11px;
+}
+
+.footer__copyright {
+  font-family: "Montserrat-Regular";
+  font-size: 15.5px;
+  color: #9f9f9f;
+  margin-top: 46px;
+  margin-left: 2px;
+  letter-spacing: -0.3px;
 }
