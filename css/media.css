@@ -1,0 +1,72 @@
+@media only screen and (max-width : 1169px) {
+  .header__logo {
+    margin-left: -9%;
+  }
+
+  .second-line {
+    margin-left: -7%;
+  }
+
+  .header__middle-phones-wrapper {
+    margin-left: 82px;
+  }
+
+  .phones {
+    width: 180px;
+  }
+
+  .header_middle-buttons-wrapper {
+    margin-right: 115px;
+  }
+
+  .header__buttons {
+    margin-left: -6px;
+    margin-right: 19px;
+  }
+
+  .menu-button {
+    width: 10%;
+  }
+
+  .first-ceil {
+    margin-right: 0.5%;
+  }
+
+  .second-ceil {
+    margin-left: 0.5%;
+  }
+
+  .ceil__text {
+    font-size: 10px;
+  }
+
+  .info__cars {
+    width: 185px;
+  }
+
+  .info__services,
+  .info__about-us {
+    margin-left: 15px;
+  }
+
+  .info__services {
+    width: 190px;
+  }
+
+  .info__about-us {
+    width: 170px;
+  }
+
+  .info__contacts {
+    margin-left: 20px;
+  }
+
+  .footer__wrapper {
+    align-items: center;
+  }
+
+  .footer__copyright {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+}
