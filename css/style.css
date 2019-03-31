@@ -210,11 +210,19 @@ header {
   justify-content: flex-end;
 }
 
+.menu-button:visited, .menu-button:focus, .menu-button:active, .menu-button:hover{
+    outline:0 none !important;
+}
+
 .menu-button-font {
   font-family: "Romul-Regular";
   font-size: 15px;
   color: #ffffff;
   margin-left: 8px;
+}
+
+.menu-button-font:visited, .menu-button-font:active {
+  color: #d0aa8c !important;
 }
 
 .second-button .menu-button-font {
@@ -238,7 +246,45 @@ header {
 }
 /* -------------breadcrumbs------------- */
 .breadcrumbs {
-  height: 48px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 28px;
+}
+
+.breadcrumbs__first-dir,
+.breadcrumbs__next-dir,
+.breadcrumbs__last-dir {
+  width: 80px;
+  height: 10px;
+  display: flex;
+}
+
+.breadcrumbs__next-dir {
+  border-left: 1px solid black;
+}
+
+.breadcrumbs__last-dir {
+  border-left: 1px solid #d0aa8c;
+}
+
+.breadcrumbs__first-dir-text,
+.breadcrumbs__next-dir-text,
+.breadcrumbs__last-dir-text {
+  font-family: "Montserrat-Medium";
+  font-size: 10.5px;
+  margin-left: 9px;
+  margin-top: -2px;
+}
+
+.breadcrumbs__first-dir-text {
+  margin-left: 16px;
+}
+
+.breadcrumbs__last-dir-text {
+  color: #d0aa8c;
+  margin-left: 4px;
 }
 /* ---------------tagline--------------- */
 .tagline {
