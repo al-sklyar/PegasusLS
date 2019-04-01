@@ -58,17 +58,17 @@ header {
 }
 
 .header__logo {
-  margin-left: -64px;
+  margin-left: -46px;
   margin-top: -10px;
   z-index: 1;
 }
 
 .first-line {
-  margin-left: -4px;
+  margin-left: 8px;
 }
 
 .second-line {
-  margin-left: -67px;
+  margin-left: -55px;
 }
 
 .header__middle-wrapper {
@@ -306,20 +306,26 @@ header {
 
 .tagline__second-string-wrapper {
   margin: 4px 0 0 15px;
+  display: flex;
 }
 
 .tagline__second-string {
   font-family: "Romul-Regular";
   font-size: 37.5px;
-  margin: 0px 10px;
+  margin-left: 13px;
 }
 
 .peach-line-big {
-  margin-bottom: 12px;
+  margin-top: 22px;
+  width: 80px;
+}
+
+.peach-line-big:first-of-type {
+  margin-right: 1px;
 }
 
 .peach-line-big:last-of-type {
-  margin-left: 2px;
+  margin-left: 16px;
 }
 
 .tagline__text {
@@ -387,6 +393,7 @@ header {
 
 .peach-line-long {
   margin-top: 21px;
+  margin-right: 2px;
 }
 
 .ceil__text {
@@ -473,6 +480,7 @@ footer {
   height: 136px;
   margin-top: 71px;
   margin-left: -2px;
+  border-left: 2px solid #8b8c8c;
 }
 
 .vertical-line-footer.second-l {
@@ -484,6 +492,7 @@ footer {
   height: 207px;
   margin-left: 1px;
   margin-top: 1px;
+  border-left: 1px solid #8b8c8c;
 }
 
 .info__cars {
