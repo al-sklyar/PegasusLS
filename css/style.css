@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;   
-  max-width: 1920px;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -97,6 +96,8 @@ header {
   font-size: 18px;
   margin-top: -1px;
   word-spacing: 1px;
+  text-decoration: none;
+  color: #2f2c34;
 }
 
 .second-line-wrapper {
@@ -561,6 +562,7 @@ footer {
   margin-top: 9px;
   margin-right: 21px;
   letter-spacing: -0.4px;
+  text-decoration: none;
 }
 
 .sec-phone {
