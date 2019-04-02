@@ -40,48 +40,59 @@ body {
 }
 /* ----------------header---------------- */
 header {
-  max-width: 1200px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 158px;  
 }
 
-.header__image-wrapper {
-  margin-top: 26px;
+.header__image-wrapper {  
   display: flex;
+  flex-direction: row;
   flex-wrap: nowrap;
   align-items: flex-start;
+  position: relative;
+  margin-top: 26px;
 }
 
 .header__lines {
-  width: 570px;
+  position: absolute;
+  width: 548px;
   height: 1px;
   z-index: 2;
+  background-color: #2f2c34;
 }
 
 .header__logo {
-  margin-left: -46px;
+  margin-left: 17px;
   margin-top: -10px;
   z-index: 1;
 }
 
 .first-line {
-  margin-left: 8px;
+  right: 159px;
 }
 
 .second-line {
-  margin-left: -55px;
+  left: 175px;
 }
 
 .header__middle-wrapper {
   display: flex;
+  position: relative;
+  flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-top: -44px;
-  margin-left: 23px;
+  margin-top: -43px;
+  
 }
 
 .header__middle-phones-wrapper {
   display: flex;
+  position: absolute;
   flex-wrap: nowrap; 
+  right: 117px;
+  top: -2px;
 }
 
 .phones {
@@ -128,9 +139,11 @@ header {
   margin-left: 8px;
 }
 
-.header_middle-buttons-wrapper {
+.header__middle-buttons_wrapper {
   display: flex;
   flex-wrap: nowrap;
+  position: absolute;
+  left: 178px;
 }
 
 .header__buttons {
@@ -148,20 +161,26 @@ header {
   color: #ffffff;
 }
 
-.header__buttons-font{
+.header__buttons_font{
   font-family: "Montserrat-Medium";
   font-size: 16px;
+  font-size: 13px;
+  text-transform: uppercase;
 }
 
 .header__menu {
-  background: linear-gradient(to bottom right, #2f2c34, #d0aa8c 400%);
-  width: 1920px;
-  height: 60px;  
+  /* background: linear-gradient(to bottom right, #2f2c34, #d0aa8c 400%); */
+  background: linear-gradient(135deg, #2f2c34 40%, #d0aa8c 200%);
+    
   margin-top: 25px;
-  transform: translateX(-18.75%);
+  /* transform: translateX(-18.75%); */
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
+      position: absolute;
+      margin-top: 114px;
+  width: 100%;
+  height: 60px;
 }
 
 .header__menu-buttons {
@@ -590,13 +609,17 @@ footer {
   display: flex;
   flex-direction: row;
   margin-top: 7px;
-  margin-right: 11px;
+  margin-right: 10px;
 }
 
-.icon {
-width: 28px;
-height: 28px;
-margin-right: 11px;
+.fab {
+  font-size: 31.5px;
+  margin-right: 11px;
+  color: #9b9b9b;
+}
+
+.fa-google-plus-square {
+  color: #d0aa8c;
 }
 
 .footer__copyright {
