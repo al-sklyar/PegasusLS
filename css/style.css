@@ -32,7 +32,8 @@ html, body {
 body {  
   display: flex;
   flex-direction: column;
-  align-items: center;  
+  align-items: center;
+  color: #2f2c34;
 }
 
 .cursor {
@@ -130,9 +131,10 @@ header {
 }
 
 .peach-line {
+  margin-left: 4px;
   width: 39px;
   height: 1px;
-  margin-left: 4px;
+  background-color: #d0aa8c;
 }
 
 .second-phone .peach-line {
@@ -169,16 +171,13 @@ header {
 }
 
 .header__menu {
-  /* background: linear-gradient(to bottom right, #2f2c34, #d0aa8c 400%); */
   background: linear-gradient(135deg, #2f2c34 40%, #d0aa8c 200%);
-    
   margin-top: 25px;
-  /* transform: translateX(-18.75%); */
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-      position: absolute;
-      margin-top: 114px;
+  position: absolute;
+  margin-top: 114px;
   width: 100%;
   height: 60px;
 }
@@ -187,8 +186,8 @@ header {
   width: 1170px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
   align-items: center;
+  list-style: none;
 }
 
 .menu-button {
@@ -230,35 +229,32 @@ header {
   justify-content: flex-end;
 }
 
-.menu-button:visited, .menu-button:focus, .menu-button:active, .menu-button:hover{
-    outline:0 none !important;
-}
-
 .menu-button-font {
   font-family: "Romul-Regular";
   font-size: 15px;
   color: #ffffff;
   margin-left: 8px;
+  text-decoration: none;
 }
 
-.menu-button-font:visited, .menu-button-font:active {
+ .menu-button-font:hover {
   color: #d0aa8c !important;
 }
 
 .second-button .menu-button-font {
-  margin-left: -5px;
+  margin-left: 66px;
 }
 
 .third-button .menu-button-font {
-  margin-left: -6px;
+  margin-left: 68px;
 }
 
 .fourth-button .menu-button-font {
-  margin-left: -6px;
+  margin-left: 64px;
 }
 
 .fifth-button .menu-button-font {
-  margin-left: -2px;
+  margin-left: 67px;
 }
 
 .sixth-button .menu-button-font {
@@ -337,10 +333,13 @@ header {
 .peach-line-big {
   margin-top: 22px;
   width: 80px;
+  height: 2px;
+  background-color: #d0aa8c;
 }
 
 .peach-line-big:first-of-type {
   margin-right: 1px;
+
 }
 
 .peach-line-big:last-of-type {
@@ -354,6 +353,7 @@ header {
   margin-left: 22px;
   word-spacing: 2.7px;
   line-height: 16px;
+  text-align: center;
 }
 
 .tagline__text span {
@@ -411,8 +411,11 @@ header {
 }
 
 .peach-line-long {
+  width: 90px;
+  height: 1px;
   margin-top: 21px;
   margin-right: 2px;
+  background-color: #d0aa8c;
 }
 
 .ceil__text {
@@ -420,6 +423,7 @@ header {
   font-size: 12px;
   margin-top: 22px;
   letter-spacing: 0.33px;
+  text-align: center;
 }
 
 .ceil__button {
@@ -531,6 +535,8 @@ footer {
   margin-bottom: 24px;
   margin-left: 2px;
   width: 68px;
+  height: 2px;
+  background-color: #d0aa8c;
 }
 
 .info__services,
