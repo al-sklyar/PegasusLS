@@ -32,7 +32,6 @@
     margin-left: 25% !important;
   }
 
-
   .sixth-button .menu-button_font {
     margin-right: 12%;
   }    
@@ -79,13 +78,13 @@
     letter-spacing: 0;
   }
 }
-@media (min-width: 1041px) and (max-width: 1200px) {
-  
 
+@media (min-width: 1041px) and (max-width: 1200px) { 
   .ceil__text {
     font-size: 10px;
   }
 }
+
 @media (min-width: 1041px) and (max-width: 1085px) {
   .ceil__text {
     letter-spacing: 0;
@@ -120,18 +119,6 @@
   .image-area__block {
     flex-direction: column;
   }
-
-  /* .block__ceil {
-    height: 500px;
-  }
-
-  .ceil__teatle {
-    margin-top: 15px;
-  }
-
-  .peach-line-long {
-    margin-top: 10px;
-  } */
 }
 
 @media (max-width: 999px) {
@@ -228,8 +215,7 @@
   }
 }
 
-@media (max-width : 768px) {  
-
+@media (max-width : 768px) {
   .header__menu {
     justify-content: flex-start;
   }
@@ -258,10 +244,6 @@
   .image-area {
     margin-top: 20px;
   }
-
-  /* .image-area__block {
-    flex-direction: column;
-  }*/
 
   .block__ceil {
     height: 500px;
@@ -352,6 +334,10 @@
   .info__contacts {
     margin-left: 230px;
   }
+
+  .footer__copyright {
+    margin-left: 8px;
+  }
 }
 
 @media (max-width : 460px) {
@@ -377,8 +363,8 @@
   
   .tagline__text {
     line-height: 14px;
-    font-size: 1.9vw;
-    margin-left: 0.5px;
+    font-size: 2vw;
+    margin-left: 0.5px;    
   }
 
   .image-area {
@@ -391,7 +377,6 @@
   }
 
   .ceil__text {
-    font-size: 8px;
     line-height: 12px;
     font-size: 2vw;
   }
@@ -429,5 +414,59 @@
 
   .header__buttons {
     margin-left: 12px;
+  }
+  
+  .header__menu {
+    margin-top: 135px;
+  }
+
+  .breadcrumbs {
+    margin-top: 50px;
+  }
+
+  .peach-line-big {
+    display: none;
+  }
+}
+@media (max-width : 355px) {
+
+  .header__middle-phones_wrapper {
+    right: 132px;
+  }
+
+  .header__logo {
+    margin-left: -6%;
+  }
+
+  .header__buttons {
+    margin-left: 25px;
+    width: 140px;
+  }
+
+  .header__menu {
+    height: 49px;
+  }
+
+  .mobile-menu_line:last-of-type {
+    display: none;
+  }
+
+  .breadcrumbs {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width : 336px) {
+  .header__buttons {
+    margin-left: 32px;
+  }
+
+  .phone-number {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+
+  .phone-time {
+    margin-left: 46px !important;
   }
 }

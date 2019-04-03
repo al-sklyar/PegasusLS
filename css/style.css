@@ -84,8 +84,7 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin-top: -43px;
-  
+  margin-top: -43px;  
 }
 
 .header__middle-phones_wrapper {
@@ -123,7 +122,6 @@ header {
   font-size: 13px;
   color: #d0aa8c;
   word-spacing: 1.75px;
-
 }
 
 .first-phone .phone-time {
@@ -509,6 +507,7 @@ footer {
   flex-wrap: nowrap;
   justify-content: center;
 }
+
 .footer__wrapper {
   width: 1170px;
   display: flex;

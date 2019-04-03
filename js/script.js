@@ -1,26 +1,26 @@
 $(document).ready(() => {
   let counter = 0;
 
-  $(".first-button").on("click", () => {
+  $(".first-link").on("click", () => {
     $(".breadcrumbs__next-dir").html('<span class="breadcrumbs__next-dir-text">ГЛАВНАЯ</span>');
     $(".breadcrumbs__next-dir-text").css("margin-left", "12px");
   });
-  $(".second-button").on("click", () => {
+  $(".second-link").on("click", () => {
     $(".breadcrumbs__next-dir").html('<span class="breadcrumbs__next-dir-text">УСЛУГИ</span>');
     $(".breadcrumbs__next-dir-text").css("margin-left", "16px");
   });
-  $(".third-button").on("click", () => {
+  $(".third-link").on("click", () => {
     $(".breadcrumbs__next-dir").html('<span class="breadcrumbs__next-dir-text">АВТОПАРК</span>');
     $(".breadcrumbs__next-dir-text").css("margin-left", "6px");
   });
-  $(".fourth-button").on("click", () => {
+  $(".fourth-link").on("click", () => {
     $(".breadcrumbs__next-dir").html('<span class="breadcrumbs__next-dir-text">СОБЫТИЯ</span>');
   });
-  $(".fifth-button").on("click", () => {
+  $(".fifth-link").on("click", () => {
     $(".breadcrumbs__next-dir").html('<span class="breadcrumbs__next-dir-text">О НАС</span>');
     $(".breadcrumbs__next-dir-text").css("margin-left", "22px");
   });
-  $(".sixth-button").on("click", () => {
+  $(".sixth-link").on("click", () => {
     $(".breadcrumbs__next-dir").html('<span class="breadcrumbs__next-dir-text">КОНТАКТЫ</span>');
     $(".breadcrumbs__next-dir-text").css("margin-left", "6px");
   });
